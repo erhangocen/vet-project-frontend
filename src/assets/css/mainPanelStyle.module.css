@@ -1,0 +1,21 @@
+.main_panel{
+    width: calc(100% - 100px);
+    padding-bottom: 30px;
+}
+
+.page_navigator{
+    float: right;
+    margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .main_panel{
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+    .page_navigator{
+        margin: -2px;
+    }
+    
+}

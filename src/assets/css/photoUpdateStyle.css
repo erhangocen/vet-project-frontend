@@ -1,0 +1,35 @@
+input[type="file"].custom {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .items-center{
+    align-items: center;
+  }
+
+  .updatePhotoLabel{
+    color: gray;
+    cursor: pointer;
+  }
+
+  .updatePhotoButton:hover .updatePhotoLabel {
+    color: rgba(76, 0, 130, 0.525) !important;
+  }
+
+
+  .updatePhotoButton:hover{
+    outline: 2px solid rgba(76, 0, 130, 0.384) !important;
+  }
+
+
+

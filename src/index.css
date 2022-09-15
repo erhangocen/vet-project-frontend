@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    padding-right: 0 !important;
+    overflow: auto !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-image: url("https://res.cloudinary.com/dbzf16o0x/image/upload/v1662855296/6_viitzo.png");
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  

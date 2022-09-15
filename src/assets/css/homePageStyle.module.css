@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  /*========== Colors ==========*/
+  --first-color: #26A69A;
+  --first-color-lighter: #ECF3F2;
+  --title-color: #11443F;
+  --text-color: #5B7B78;
+  --body-color: #F5FFFE;
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 3rem;
+  --big-font-size: 1.25rem;
+  --normal-font-size: .938rem;
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 5.5rem;
+    --big-font-size: 2rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+
+*, ::before, ::after {
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0;
+  }
+  
+  h1, h2, ul, p {
+    margin: 0;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.main {
+    position: relative;
+    margin: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: transparent;
+    color: var(--text-color);
+    z-index: 0 !important;
+    background-size: contain;
+}
+
+.bd_container {
+    max-width: 968px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    box-shadow: none !important;
+  }
+
+.islands {
+height: 100vh;
+position: relative;
+}
+
+.islands__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .islands__container {
+    margin-left: 150px;
+    height: 100%;
+    display: grid;
+    align-content: center;
+  }
+
+  .islands__subtitle, .islands__title, .islands__description {
+    color: var(--body-color);
+  }
+
+  .islands__subtitle {
+    font-size: var(--big-font-size);
+    font-weight: var(--font-medium);
+  }
+
+  .islands__title {
+    font-size: var(--biggest-font-size);
+  }
+
+  .islands__description {
+    margin-bottom: 1rem;
+  }
+
+  .islands__button {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--body-color);
+    color: var(--first-color);
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+  }
+
+  .gallery-thumbs{
+    background-color: #ffffff89 !important;
+  }
+  
+  .islands__button:hover {
+    background-color: var(--first-color-lighter);
+  }
+
+  .islands__button-icon {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+  }
+
+  .bd-container {
+    max-width: 968px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    box-shadow: none !important;
+  }
+
+
+  @media screen and (max-width: 320px) {
+    .bd-container {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .controls__container {
+      column-gap: .25rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .islands__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .islands__description {
+      padding-right: 5rem;
+      margin-bottom: 2rem;
+    }
+    .controls {
+      padding: .5rem;
+      border-radius: 1.25rem;
+    }
+    .controls__container {
+      column-gap: 1.5rem;
+    }
+    .controls__img {
+      width: 45px;
+      height: 45px;
+      border-radius: .75rem;
+    }
+    .swiper-slide-thumb-active {
+      width: 55px;
+      height: 55px;
+    }
+  } 
+  
+  @media screen and (min-width: 1024px) {
+    .bd-container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .islands__description {
+      padding-right: 11rem;
+    }
+  }
+  
+  /* For tall screens on mobiles y desktop*/
+  @media screen and (min-height: 721px) {
+    .islands {
+      height: 749px;
+    }
+    .gallery-thumbs{
+      padding-right: 21px;
+    }
+  }

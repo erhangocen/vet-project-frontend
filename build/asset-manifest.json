@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c005cc2c.css",
+    "main.js": "/static/js/main.2cc2827e.js",
+    "static/media/nucleo-icons.eot": "/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
+    "static/media/nucleo-icons.ttf": "/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/nucleo-icons.woff": "/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
+    "static/media/nucleo-icons.woff2": "/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
+    "static/media/paw-icon.png": "/static/media/paw-icon.c8de97ce631106c4524c.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c005cc2c.css",
+    "static/js/main.2cc2827e.js"
+  ]
+}
