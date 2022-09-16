@@ -1,6 +1,6 @@
 {
   "name": "vet-project",
-  "apiUrl": "http://34.230.73.81:8081/api/",
+  "apiUrl": "http://44.203.152.14:8081/api/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
