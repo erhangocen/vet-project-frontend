@@ -2,7 +2,7 @@
 
 ## 🙀 Project link : 
 
-## ⚠️ You need to do before starting the project :  
+## ⬇️⬇️ You need to do before starting the project ⬇️⬇️
 
 ## 1 - Open the site settings
 <img src="https://res.cloudinary.com/dbzf16o0x/image/upload/v1663327276/git/Ads%C4%B1z_fdlm9p.png"/>
