@@ -58,7 +58,7 @@ export default function VetListPage() {
     vetService.getAllVets().then((result)=>{
       setVets(result.data.data);
     });
-  }, [addModal,statusChange]);
+  });
 
   let searchbarHandler = (e) => {
     setSearchText(e.target.value.toLowerCase());
@@ -94,8 +94,9 @@ export default function VetListPage() {
   const handleChange = (currentVet) => {
     var newVet = Object.assign(currentVet,{enable:!(currentVet.enable)})
     var changedVetObject = JSON.stringify(newVet,null,2)
-    vetService.updateVet(changedVetObject);
-    setStatusChange(!statusChange)
+    vetService.updateVet(changedVetObject).then((r)=>{
+      setStatusChange(!statusChange)
+    });
   };
 
   const schema = Yup.object({
