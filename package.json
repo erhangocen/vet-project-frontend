@@ -1,6 +1,6 @@
 {
   "name": "vet-project",
-  "apiUrl": "http://44.203.152.14:8081/api/",
+  "apiUrl": "https://ksvc-vet-rest-api-erhangocen-dev.apps.sandbox.x8i5.p1.openshiftapps.com/api/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
